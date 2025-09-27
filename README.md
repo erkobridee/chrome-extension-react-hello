@@ -2,6 +2,14 @@
 
 A simple google chrome extension with React, TypeScript, TailwindCSS, and Vite.js.
 
+## Project Setup
+
+### Vite.js, React, TypeScript, and ESLint
+
+```sh
+npm create vite@latest . -- --template react-ts
+```
+
 ## Useful References
 
 - [Google Chrome Extension Documentation](https://developer.chrome.com/docs/extensions/mv3/)
