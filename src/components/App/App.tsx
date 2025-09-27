@@ -12,6 +12,10 @@ function App() {
     setCount((count) => count + 1);
   };
 
+  const openTab = () => {
+    chrome.tabs.create({ url: 'https://github.com/erkobridee' });
+  };
+
   return (
     <div className="flex flex-col space-y-5">
       <div className="flex justify-center space-x-5">
@@ -30,14 +34,21 @@ function App() {
         <div>
           <button onClick={buttonClickHandler}>count is {count}</button>
         </div>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+        {import.meta.env.DEV && (
+          <p>
+            Edit <code>src/components/App/App.tsx</code> and save to test HMR
+          </p>
+        )}
       </div>
 
       <p className="text-gray-400">
         Click on the Vite and React logos to learn more
       </p>
+
+      <div>
+        <button onClick={openTab}>open new tab: github/erkobridee</button>
+      </div>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import './tailwind.css';
-import styles from './index.css?inline';
+import '~/assets/styles/tailwind.css';
+import styles from '~/assets/styles/index.css?inline';
 
-import App from '~/App';
+import App from '~/components/App';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

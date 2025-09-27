@@ -49,11 +49,22 @@ npm i -D vite-tsconfig-paths
 
 ![Chrome Ext. First Load and Execution](docs/assets/chrome-ext-first-load_n_execution.png)
 
+### Hot Reload
+
+- [[GitHub] crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools)
+  - [Install Vite and CRXJS | From Scratch - CRXJS](https://crxjs.dev/guide/installation/from-scratch#install-vite-and-crxjs)
+
+```sh
+npm i -D vite @crxjs/vite-plugin
+```
+
 ## CLI Commands
 
 ESLint: `npm run lint`
 
 Prettier: `npm run prettify`
+
+Development: `npm start`
 
 ## Useful References
 
