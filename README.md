@@ -16,6 +16,12 @@ npm create vite@latest . -- --template react-ts
 npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
+### Git Hooks
+
+```sh
+npm i -D simple-git-hooks is-ci lint-staged
+```
+
 ## CLI Commands
 
 ESLint: `npm run lint`
