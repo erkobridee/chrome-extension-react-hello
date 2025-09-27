@@ -10,6 +10,18 @@ A simple google chrome extension with React, TypeScript, TailwindCSS, and Vite.j
 npm create vite@latest . -- --template react-ts
 ```
 
+### Prettier
+
+```sh
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+```
+
+## CLI Commands
+
+ESLint: `npm run lint`
+
+Prettier: `npm run prettify`
+
 ## Useful References
 
 - [Google Chrome Extension Documentation](https://developer.chrome.com/docs/extensions/mv3/)
