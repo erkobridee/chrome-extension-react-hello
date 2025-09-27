@@ -30,6 +30,12 @@ npm i -S tailwindcss
 npm i -D @tailwindcss/vite prettier-plugin-tailwindcss
 ```
 
+### Custom Import Paths
+
+```sh
+npm i -D vite-tsconfig-paths
+```
+
 ## CLI Commands
 
 ESLint: `npm run lint`
