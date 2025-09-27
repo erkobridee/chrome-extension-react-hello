@@ -22,6 +22,14 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 npm i -D simple-git-hooks is-ci lint-staged
 ```
 
+### TailwindCSS
+
+```sh
+npm i -S tailwindcss
+
+npm i -D @tailwindcss/vite prettier-plugin-tailwindcss
+```
+
 ## CLI Commands
 
 ESLint: `npm run lint`
