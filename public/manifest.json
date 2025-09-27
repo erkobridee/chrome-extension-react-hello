@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome EXT: Vite + TS + React + TailwindCSS",
+  "version": "0.0.0",
+  "description": "A Chrome extension that uses Vite + TS + React + TailwindCSS",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"]
+}

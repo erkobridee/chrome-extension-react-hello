@@ -36,6 +36,19 @@ npm i -D @tailwindcss/vite prettier-plugin-tailwindcss
 npm i -D vite-tsconfig-paths
 ```
 
+### Google Chrome Extension
+
+- [[YouTube] How to Build Chrome Extensions | The Dev Logger](https://www.youtube.com/watch?v=dPJjcVJAa5k) (2024-05-11)
+
+1. Create the `manifest.json` file inside of the `public` directory
+2. run `npm run build`
+3. Open the Google Chrome browser and navigate to `chrome://extensions`
+4. Active the `Developer mode`
+5. Click the `Load unpacked` button
+6. Select the `dist` directory
+
+![Chrome Ext. First Load and Execution](docs/assets/chrome-ext-first-load_n_execution.png)
+
 ## CLI Commands
 
 ESLint: `npm run lint`
