@@ -47,6 +47,8 @@ npm i -D vite-tsconfig-paths
 5. Click the `Load unpacked` button
 6. Select the `dist` directory
 
+<br />
+
 ![Chrome Ext. First Load and Execution](docs/assets/chrome-ext-first-load_n_execution.png)
 
 ### Hot Reload
@@ -57,6 +59,10 @@ npm i -D vite-tsconfig-paths
 ```sh
 npm i -D vite @crxjs/vite-plugin
 ```
+
+<br />
+
+![Chrome Ext. Hot Reload support](docs/assets/chrome-ext-hot-reload.png)
 
 ## CLI Commands
 
