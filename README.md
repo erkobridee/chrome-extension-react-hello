@@ -1,4 +1,4 @@
-# Google Chrome Extension React Hello 🚧
+# Google Chrome Extension React Hello
 
 A simple google chrome extension with React, TypeScript, TailwindCSS, and Vite.js.
 
