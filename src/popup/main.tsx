@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <style precedence="medium">{styles}</style>
 
-    <title>Chrome EXT: Vite + TS + React + TailwindCSS</title>
+    <title>Chrome EXT: Vite + TS + CRXJS + React + TailwindCSS</title>
 
     <App />
   </StrictMode>,
