@@ -2,13 +2,14 @@ name: Pull Request to Main
 
 on:
   pull_request:
-  merge_group:
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
+    branches:
+      - main
+
+concurrency:
+  group: pr-to-main-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
 
 permissions:
-  id-token: write
-  contents: read
   pull-requests: write
   checks: write
 
